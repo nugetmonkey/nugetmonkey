@@ -1,0 +1,4 @@
+include 'Test1'
+
+rootProject.name = "nuget@"
+

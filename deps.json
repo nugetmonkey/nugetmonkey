@@ -1,0 +1,29 @@
+{
+  "groupId": "org.apache.camel",
+  "artifactId": "camel-core",
+  "version": "2.18.3",
+  "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.camel\\camel-core\\2.18.3\\72755eca38c66eabc46e56642f7becc8b5c58e58\\camel-core-2.18.3.jar",
+  "dependencies": [
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "1.7.22",
+      "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.22\\a1c83373863cec7ae8d89dc1c5722d8cb6ec0309\\slf4j-api-1.7.22.jar",
+      "dependencies": []
+    },
+    {
+      "groupId": "com.sun.xml.bind",
+      "artifactId": "jaxb-core",
+      "version": "2.2.11",
+      "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-core\\2.2.11\\c3f87d654f8d5943cd08592f3f758856544d279a\\jaxb-core-2.2.11.jar",
+      "dependencies": []
+    },
+    {
+      "groupId": "com.sun.xml.bind",
+      "artifactId": "jaxb-impl",
+      "version": "2.2.11",
+      "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-impl\\2.2.11\\a49ce57aee680f9435f49ba6ef427d38c93247a6\\jaxb-impl-2.2.11.jar",
+      "dependencies": []
+    }
+  ]
+}
