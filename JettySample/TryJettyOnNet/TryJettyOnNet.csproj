@@ -151,26 +151,33 @@
       <HintPath>..\packages\IKVM.8.1.5717.0\lib\IKVM.Runtime.JNI.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="javax.servlet-api-3.1.0">
-      <HintPath>..\javax.servlet-api-3.1.0.dll</HintPath>
+    <Reference Include="javax.servlet-api-3.1.0, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
     </Reference>
-    <Reference Include="jetty-http-9.4.5.v20170502">
-      <HintPath>..\jetty-http-9.4.5.v20170502.dll</HintPath>
+    <Reference Include="jetty-http-9.4.5.v20170502, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
     </Reference>
-    <Reference Include="jetty-io-9.4.5.v20170502">
-      <HintPath>..\jetty-io-9.4.5.v20170502.dll</HintPath>
+    <Reference Include="jetty-io-9.4.5.v20170502, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
     </Reference>
-    <Reference Include="jetty-security-9.4.5.v20170502">
-      <HintPath>..\jetty-security-9.4.5.v20170502.dll</HintPath>
+    <Reference Include="jetty-security-9.4.5.v20170502, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
     </Reference>
-    <Reference Include="jetty-server-9.4.5.v20170502">
-      <HintPath>..\jetty-server-9.4.5.v20170502.dll</HintPath>
+    <Reference Include="jetty-server-9.4.5.v20170502, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
     </Reference>
-    <Reference Include="jetty-servlet-9.4.5.v20170502">
-      <HintPath>..\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    <Reference Include="jetty-servlet-9.4.5.v20170502, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
     </Reference>
-    <Reference Include="jetty-util-9.4.5.v20170502">
-      <HintPath>..\jetty-util-9.4.5.v20170502.dll</HintPath>
+    <Reference Include="jetty-util-9.4.5.v20170502, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
