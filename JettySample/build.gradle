@@ -10,5 +10,4 @@ dependencies {
 
 NugetMonkey{
     refs "$rootDir/a.dll"
-
 }

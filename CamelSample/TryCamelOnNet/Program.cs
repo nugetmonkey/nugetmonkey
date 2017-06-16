@@ -20,7 +20,7 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-            CamelContext context = new DefaultCamelContextNameStrategy("sd");
+            CamelContext context = new DefaultCamelContext();
             context.addRoutes(new Rb() );
             context.start();
             System.Threading.Thread.CurrentThread.Join();

@@ -37,12 +37,23 @@ targetCompatibility = 1.7
 allprojects {
 
     apply plugin: 'java'
+    apply plugin: 'idea'
     sourceCompatibility = 1.7
     targetCompatibility = 1.7
 
   repositories {
     mavenCentral()
   }
+    idea {
+        module {
+            // if you hate browsing Javadoc
+            downloadJavadoc = false
+
+            // and love reading sources :)
+            downloadSources = true
+        }
+    }
+
 //  task printSolvedDepsTreeInJson {
 //      doLast {
 //          def jsonOutput = "["
