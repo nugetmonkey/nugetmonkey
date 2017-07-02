@@ -11,5 +11,5 @@ dependencies {
 
 NugetMonkey{
     refs "$rootDir/a.dll"
-    projFile "$rootDir/CamelSample/TryCamelOnNet.csproj"
+    projFile "$projectDir/TryCamelOnNet/TryCamelOnNet.csproj"
 }

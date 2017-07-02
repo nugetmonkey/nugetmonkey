@@ -16,15 +16,18 @@ $proj = [xml](Get-Content $path)
 $nsmgr.AddNamespace('a','http://schemas.microsoft.com/developer/msbuild/2003')
 $node = $proj.SelectSingleNode($XPath, $nsmgr)
 
-if (!$node)
-{ 
-    [System.Console]::WriteLine("");
-    [System.Console]::WriteLine("Cannot find node with XPath {0}", $XPath) 
-    [System.Console]::WriteLine("");
-    exit
+# if (!$node)
+# {
+#     [System.Console]::WriteLine("");
+#     [System.Console]::WriteLine("Cannot find node with XPath {0}", $XPath)
+#     [System.Console]::WriteLine("");
+#     exit
+# }
+if ($node){
+    [System.Console]::WriteLine("Removing node {0}", $node)
+    $node.ParentNode.RemoveChild($node);
+
+    $proj.Save($path)
 }
 
-[System.Console]::WriteLine("Removing node {0}", $node)
-$node.ParentNode.RemoveChild($node);
-
-$proj.Save($path)
+exit 0

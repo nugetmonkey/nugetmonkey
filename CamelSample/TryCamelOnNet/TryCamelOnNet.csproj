@@ -36,9 +36,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="camel-core-2.18.3">
-      <HintPath>..\build\libs\camel-core-2.18.3.dll</HintPath>
-    </Reference>
     <Reference Include="IKVM.AWT.WinForms, Version=8.1.5717.0, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <HintPath>packages\IKVM.8.1.5717.0\lib\IKVM.AWT.WinForms.dll</HintPath>
       <Private>True</Private>
@@ -151,15 +148,6 @@
       <HintPath>packages\IKVM.8.1.5717.0\lib\IKVM.Runtime.JNI.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="jaxb-core-2.2.11">
-      <HintPath>..\build\libs\jaxb-core-2.2.11.dll</HintPath>
-    </Reference>
-    <Reference Include="jaxb-impl-2.2.11">
-      <HintPath>..\build\libs\jaxb-impl-2.2.11.dll</HintPath>
-    </Reference>
-    <Reference Include="slf4j-api-1.7.22">
-      <HintPath>..\build\libs\slf4j-api-1.7.22.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -184,4 +172,24 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nugetmonkey\CamelSample\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nugetmonkey\CamelSample\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nugetmonkey\CamelSample\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.18.3.dll">
+      <HintPath>C:\work\git_mehmet\nugetmonkey\CamelSample\build\libs\camel-core-2.18.3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

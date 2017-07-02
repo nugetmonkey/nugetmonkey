@@ -10,4 +10,5 @@ dependencies {
 
 NugetMonkey{
     refs "$rootDir/a.dll"
+    projFile "$projectDir/TryJettyOnNet/TryJettyOnNet.csproj"
 }
