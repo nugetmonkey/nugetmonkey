@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1", "Test1\Test1.csproj", "{1C793D6F-282F-496D-A62A-56FB592B498B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0C93B99-EE28-434A-9BC0-7BC0BA63EA93}"
-	ProjectSection(SolutionItems) = preProject
-		build.gradle = build.gradle
-		settings.gradle = settings.gradle
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget@", "Nuget@\Nuget@.csproj", "{4317C3BA-FF20-4EB8-ABC3-45848CFD17DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1C793D6F-282F-496D-A62A-56FB592B498B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C793D6F-282F-496D-A62A-56FB592B498B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C793D6F-282F-496D-A62A-56FB592B498B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C793D6F-282F-496D-A62A-56FB592B498B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4317C3BA-FF20-4EB8-ABC3-45848CFD17DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4317C3BA-FF20-4EB8-ABC3-45848CFD17DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4317C3BA-FF20-4EB8-ABC3-45848CFD17DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4317C3BA-FF20-4EB8-ABC3-45848CFD17DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

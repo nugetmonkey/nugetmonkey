@@ -53,7 +53,9 @@ allprojects {
             downloadSources = true
         }
     }
-
+    task wrapper(type: Wrapper) {
+        gradleVersion = '4.0' //version required
+    }
 //  task printSolvedDepsTreeInJson {
 //      doLast {
 //          def jsonOutput = "["

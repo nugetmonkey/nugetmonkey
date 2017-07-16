@@ -3,10 +3,11 @@ apply plugin: 'nugetmonkey'
 
 dependencies {
 
-// https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server
     compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.5.v20170502'
     compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.5.v20170502'
 }
+
+println "${new FileNameByRegexFinder().getFileNames("$projectDir", /.*\...proj/).head()}"
 
 NugetMonkey{
     refs "$rootDir/a.dll"
