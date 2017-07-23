@@ -192,4 +192,64 @@
       <HintPath>C:\work\git_mehmet\nugetmonkey\CamelSample\build\libs\camel-core-2.18.3.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.18.3.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\camel-core-2.18.3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.18.3.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\camel-core-2.18.3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.18.3.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\CamelSample\build\libs\camel-core-2.18.3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

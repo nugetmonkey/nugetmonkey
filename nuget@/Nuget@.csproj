@@ -52,7 +52,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="copyToProject\build.gradle" />
-    <None Include="copyToProject\build\nuget%40.targets" />
+    <None Include="build\NugetMonkey.targets" />
     <None Include="copyToProject\gradlew" />
     <None Include="copyToProject\gradlew.bat" />
     <None Include="copyToProject\gradle\wrapper\gradle-wrapper.properties" />
@@ -61,10 +61,11 @@
     <None Include="Nuget%40.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="copyToProject\libs\gradle-ikvm-plugin-3.4.jar" />
+    <None Include="copyToProject\gradle\wrapper\gradle-wrapper.jar" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="copyToProject\gradle\wrapper\gradle-wrapper.jar" />
+    <None Include="copyToProject\libs\gradle-ikvm-plugin-3.5.jar" />
+    <Content Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,11 +8,12 @@
     <owners>https://github.com/mfyuce</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use Java libraries within .Net</description>
-    <releaseNotes>First release</releaseNotes>
+    <releaseNotes>First Version</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>IKVM java gradle</tags>
   </metadata>
   <files>
     <file src="copyToProject\**\*" target="content" />
+    <file src="build\**\*" target="build" />
   </files>
 </package>

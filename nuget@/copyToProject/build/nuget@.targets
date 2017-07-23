@@ -1,7 +1,0 @@
-﻿<ItemDefinitionGroup>  
-  <PreBuildEvent>  
-    <Command>cd $(ProjectDir)
-./gradlew.bat nugetmonkey</Command>  
-    <Message>execute nuget@</Message>  
-  </PreBuildEvent>  
-</ItemDefinitionGroup>  
