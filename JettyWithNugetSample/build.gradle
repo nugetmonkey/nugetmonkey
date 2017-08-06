@@ -9,6 +9,7 @@ buildscript{
         classpath 'org.apache.commons:commons-lang3:3.4'
         classpath 'commons-io:commons-io:2.5'
         classpath 'commons-codec:commons-codec:1.10'
+		classpath  'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
 
         classpath fileTree(dir: "${rootDir}/libs/", include: "*.jar")
     }
@@ -33,9 +34,7 @@ task wrapper(type: Wrapper) {
     gradleVersion = '4.0' //version required
 }
 
-dependencies {
-    compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.5.v20170502'
-    compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.5.v20170502'
+dependencies { 
 }
 
 NugetMonkey{

@@ -20,17 +20,7 @@ buildscript{
         classpath fileTree(dir: "${rootDir}/libs/", include: "*.jar")
     }
 }
- 
-ext {
-    springVersion = '4.3.7.RELEASE'
-    springSecurityVersion = '4.2.2.RELEASE'
-// latest stable version
-    camelversion='2.18.3'
-//ext.camelversion='2.19.0-SNAPSHOT'
-    slf4jLog4j12BindingVersion = '1.7.25'
-    protonJVersion= '0.18.0'
-    ikvmpath='C:\\work\\git_mehmet\\nuget@\\ikvm\\ikvm-8.1.5717.0'
-}
+
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 

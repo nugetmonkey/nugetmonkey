@@ -313,4 +313,94 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\NugetMonkey.1.0.1.35144\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.1.0.1.35144\build\NugetMonkey.targets'))" />
   </Target>
+  <ItemGroup>
+    <Reference Include="jackson-core-asl-1.9.13.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jackson-core-asl-1.9.13.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jackson-mapper-asl-1.9.13.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jackson-mapper-asl-1.9.13.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jackson-core-asl-1.9.13.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jackson-core-asl-1.9.13.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jackson-mapper-asl-1.9.13.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jackson-mapper-asl-1.9.13.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
