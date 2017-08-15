@@ -334,3 +334,13 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+deps.json
+**/build.gradle
+**/copyToProject/**
+**/gradle/**
+**/gradlew*
+**/libs/**
+**/scripts/AddReference.ps1
+**/scripts/RemoveReference.ps1
+**/*.user
