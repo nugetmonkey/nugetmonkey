@@ -52,24 +52,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FirstCommand.cs" />
-    <Compile Include="NugetMonkeyControl.xaml.cs">
-      <DependentUpon>NugetMonkeyControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NugetMonkeyWindow.cs" />
+    <Compile Include="AdditionalDeps.cs" />
     <Compile Include="NugetMonkeyWindowCommand.cs" />
-    <Compile Include="NugetMonkeyWindowControl.xaml.cs">
-      <DependentUpon>NugetMonkeyWindowControl.xaml</DependentUpon>
-    </Compile>
     <Compile Include="NugetMonkeyWindowPackage.cs" />
     <Compile Include="HttpClientRequestHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="docs.cs" />
     <Compile Include="NugetMonkey.cs" />
     <Compile Include="NugetMonkeyCommand.cs" />
-    <Compile Include="UserControl1.xaml.cs">
-      <DependentUpon>UserControl1.xaml</DependentUpon>
+    <Compile Include="NugetMonkeyControl.xaml.cs">
+      <DependentUpon>NugetMonkeyControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -94,14 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="NugetMonkeyControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="NugetMonkeyWindowControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserControl1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

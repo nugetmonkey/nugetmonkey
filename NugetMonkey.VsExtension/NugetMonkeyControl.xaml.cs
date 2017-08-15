@@ -1,28 +1,35 @@
-﻿//------------------------------------------------------------------------------
-// <copyright file="NugetMonkeyControl.xaml.cs" company="Company">
-//     Copyright (c) Company.  All rights reserved.
-// </copyright>
-//------------------------------------------------------------------------------
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using NugetMonkey.VsExtension;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
 namespace NugetMonkeyVsExtension
 {
-    using System.Diagnostics.CodeAnalysis;
-    using System.Windows;
-    using System.Windows.Controls;
-
     /// <summary>
-    /// Interaction logic for NugetMonkeyControl.
+    /// Interaction logic for UserControl1.xaml
     /// </summary>
     public partial class NugetMonkeyControl : UserControl
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="NugetMonkeyControl"/> class.
-        /// </summary>
+        private static readonly JsonSerializerSettings settings = new JsonSerializerSettings() { ContractResolver = new CamelCasePropertyNamesContractResolver() };
         public NugetMonkeyControl()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
-
         /// <summary>
         /// Handles click on the button by displaying a message box.
         /// </summary>
@@ -45,9 +52,56 @@ namespace NugetMonkeyVsExtension
         [SuppressMessage("StyleCop.CSharp.NamingRules", "SA1300:ElementMustBeginWithUpperCaseLetter", Justification = "Default event handler naming pattern")]
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
-            HttpClientRequestHandler c = new HttpClientRequestHandler();
-            var r = c.GetReleases("http://search.maven.org/solrsearch/select?q=" + txtSearch.Text + "&rows=20&wt=json");
-            grdSearchResults.ItemsSource = r.response.docs;
+            var txt = txtSearch.Text;
+            if (!string.IsNullOrWhiteSpace(txt))
+            {
+                HttpClientRequestHandler c = new HttpClientRequestHandler();
+                var r = c.GetReleases("http://search.maven.org/solrsearch/select?q=" + txtSearch.Text + "&rows=99999&wt=json");
+                grdSearchResults.ItemsSource = r.response.docs;
+            }else
+            {
+                MessageBox.Show("Please enter some texts");
+            }
+        }
+
+        private void btnInstall_Click(object sender, RoutedEventArgs e)
+        {
+            var project = Utils.GetSelectedProject();
+            if (project!=null)
+            {
+
+                string filePath = project.Properties.Item("FullPath").Value.ToString();
+                var depFile = filePath + "\\AdditionalJavaDependencies.json";
+                AdditionalDeps deps;
+                if (File.Exists(depFile))
+                {
+                    deps = JsonConvert.DeserializeObject<AdditionalDeps>(File.ReadAllText(depFile), settings);
+                    if (deps.AdditionalProjectDependencies  == null)
+                    {
+                        deps.AdditionalProjectDependencies = new List<string>(); 
+                    }
+                }else
+                {
+                    deps = new AdditionalDeps() { AdditionalProjectDependencies = new List<string>() };
+                }
+                var items = grdSearchResults.SelectedItems;
+                if (items != null)
+                {
+                    foreach (Doc item in items)
+                    {
+                        if (!deps.AdditionalProjectDependencies.Where(d => d.ToLowerInvariant().StartsWith(item.id.ToLowerInvariant() + ":")).Any())
+                        {
+                            deps.AdditionalProjectDependencies.Add(item.id + ":" + item.latestVersion);
+                        }
+                    }
+                    File.WriteAllText(depFile, JsonConvert.SerializeObject(deps, settings));
+                }
+                MessageBox.Show(filePath);
+            }
+            else
+            {
+                MessageBox.Show("No project is selected!");
+            }
         }
     }
 }

@@ -38,11 +38,11 @@ namespace NugetMonkeyVsExtension
     [PackageRegistration(UseManagedResourcesOnly = true)]
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideToolWindow(typeof(NugetMonkeyWindow))]
-    [Guid(FirstWindowPackage.PackageGuidString)]
+    [ProvideToolWindow(typeof(NugetMonkeyControl), Style = VsDockStyle.MDI)]
+    [Guid(NugetMonkeyPackage.PackageGuidString)]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
     [ProvideToolWindow(typeof(NugetMonkey))]
-    public sealed class FirstWindowPackage : Package
+    public sealed class NugetMonkeyPackage : Package
     {
         /// <summary>
         /// FirstWindowPackage GUID string.
@@ -52,7 +52,7 @@ namespace NugetMonkeyVsExtension
         /// <summary>
         /// Initializes a new instance of the <see cref="NugetMonkeyWindow"/> class.
         /// </summary>
-        public FirstWindowPackage()
+        public NugetMonkeyPackage()
         {
             // Inside this method you can place any initialization code that does not require
             // any Visual Studio service because at this point the package object is created but
@@ -70,7 +70,7 @@ namespace NugetMonkeyVsExtension
         {
             FirstWindowCommand.Initialize(this);
             base.Initialize();
-            FirstCommand.Initialize(this);
+            //FirstCommand.Initialize(this);
             NugetMonkeyCommand.Initialize(this);
         }
 

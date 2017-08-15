@@ -42,20 +42,20 @@
               <CommandFlag>DefaultInvisible</CommandFlag>
               <CommandFlag>DynamicVisibility</CommandFlag>
           If you do not want an image next to your command, remove the Icon node /> -->
-      <Button guid="guidFirstWindowPackageCmdSet" id="FirstWindowCommandId" priority="0x0100" type="Button">
+      <!--<Button guid="guidFirstWindowPackageCmdSet" id="FirstWindowCommandId" priority="0x0100" type="Button">
         <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
           <ButtonText>FirstWindow</ButtonText>
         </Strings>
-      </Button>
-      <Button guid="guidFirstWindowPackageCmdSet1" id="cmdidFirstCommand" priority="0x0100" type="Button">
+      </Button>-->
+      <!--<Button guid="guidFirstWindowPackageCmdSet1" id="cmdidFirstCommand" priority="0x0100" type="Button">
         <Parent guid="guidFirstWindowPackageCmdSet1" id="MyMenuGroup" />
         <Icon guid="guidImages1" id="bmpPic1" />
         <Strings>
           <ButtonText>Invoke FirstCommand</ButtonText>
         </Strings>
-      </Button>
+      </Button>-->
       <Button guid="guidFirstWindowPackageCmdSet" id="cmdidNugetMonkeyCommand" priority="0x0100" type="Button">
         <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1" />
         <Icon guid="guidImages2" id="bmpPic1" />

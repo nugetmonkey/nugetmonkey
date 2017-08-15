@@ -9,6 +9,7 @@ using System.ComponentModel.Design;
 using System.Globalization;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
+using EnvDTE;
 
 namespace NugetMonkeyVsExtension
 {
@@ -103,5 +104,6 @@ namespace NugetMonkeyVsExtension
             IVsWindowFrame windowFrame = (IVsWindowFrame)window.Frame;
             Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(windowFrame.Show());
         }
+
     }
 }
