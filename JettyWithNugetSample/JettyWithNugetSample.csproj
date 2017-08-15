@@ -303,730 +303,1070 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="copyToProject\libs\gradle-ikvm-plugin-3.5.2.jar" />
     <Content Include="gradle\wrapper\gradle-wrapper.jar" />
     <Content Include="libs\gradle-ikvm-plugin-3.5.2.jar" />
     <Content Include="todo.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <Import Project="..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -1035,256 +1375,6 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets'))" />
   </Target>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-http-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-server-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-security-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="javax.servlet-api-3.1.0.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-io-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jetty-util-9.4.5.v20170502.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   <ItemGroup>
     <Reference Include="javax.servlet-api-3.1.0.dll">
       <HintPath>C:\work\git_mehmet\nuget@\JettyWithNugetSample\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
