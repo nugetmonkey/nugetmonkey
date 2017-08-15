@@ -1,29 +1,464 @@
 {
-  "groupId": "org.apache.camel",
-  "artifactId": "camel-core",
-  "version": "2.18.3",
-  "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.camel\\camel-core\\2.18.3\\72755eca38c66eabc46e56642f7becc8b5c58e58\\camel-core-2.18.3.jar",
-  "dependencies": [
-    {
-      "groupId": "org.slf4j",
-      "artifactId": "slf4j-api",
-      "version": "1.7.22",
-      "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.22\\a1c83373863cec7ae8d89dc1c5722d8cb6ec0309\\slf4j-api-1.7.22.jar",
-      "dependencies": []
-    },
-    {
-      "groupId": "com.sun.xml.bind",
-      "artifactId": "jaxb-core",
-      "version": "2.2.11",
-      "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-core\\2.2.11\\c3f87d654f8d5943cd08592f3f758856544d279a\\jaxb-core-2.2.11.jar",
-      "dependencies": []
-    },
-    {
-      "groupId": "com.sun.xml.bind",
-      "artifactId": "jaxb-impl",
-      "version": "2.2.11",
-      "file": "C:\\Users\\mehmet\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.bind\\jaxb-impl\\2.2.11\\a49ce57aee680f9435f49ba6ef427d38c93247a6\\jaxb-impl-2.2.11.jar",
-      "dependencies": []
+  "responseHeader": {
+    "status": 0,
+    "QTime": 106,
+    "params": {
+      "spellcheck": "true",
+      "fl": "id,g,a,latestVersion,p,ec,repositoryId,text,timestamp,versionCount",
+      "sort": "score desc,timestamp desc,g asc,a asc",
+      "indent": "off",
+      "q": "guice",
+      "qf": "text^20 g^5 a^10",
+      "spellcheck.count": "5",
+      "wt": "json",
+      "rows": "20",
+      "version": "2.2",
+      "defType": "dismax"
     }
-  ]
+  },
+  "response": {
+    "numFound": 550,
+    "start": 0,
+    "docs": [
+      {
+        "id": "com.tomtom.speedtools:guice",
+        "g": "com.tomtom.speedtools",
+        "a": "guice",
+        "latestVersion": "3.2.3",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1499854992000,
+        "versionCount": 32,
+        "text": [
+          "com.tomtom.speedtools",
+          "guice",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.google.cloud.trace:guice",
+        "g": "com.google.cloud.trace",
+        "a": "guice",
+        "latestVersion": "0.3.2",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1490735505000,
+        "versionCount": 8,
+        "text": [
+          "com.google.cloud.trace",
+          "guice",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.xbib:guice",
+        "g": "org.xbib",
+        "a": "guice",
+        "latestVersion": "4.0.4",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1486120481000,
+        "versionCount": 2,
+        "text": [
+          "org.xbib",
+          "guice",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.jboss.forge.furnace.container:guice",
+        "g": "org.jboss.forge.furnace.container",
+        "a": "guice",
+        "latestVersion": "1.0.0.Beta1",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1481069896000,
+        "versionCount": 2,
+        "text": [
+          "org.jboss.forge.furnace.container",
+          "guice",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          "-forge-addon.jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          "-forge-addon.jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.apache.stratos:guice",
+        "g": "org.apache.stratos",
+        "a": "guice",
+        "latestVersion": "3.0",
+        "repositoryId": "central",
+        "p": "bundle",
+        "timestamp": 1470470104000,
+        "versionCount": 1,
+        "text": [
+          "org.apache.stratos",
+          "guice",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.google.inject:guice",
+        "g": "com.google.inject",
+        "a": "guice",
+        "latestVersion": "4.1.0",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1466193194000,
+        "versionCount": 11,
+        "text": [
+          "com.google.inject",
+          "guice",
+          "-sources.jar",
+          "-javadoc.jar",
+          "-test-sources.jar",
+          "-tests.jar",
+          ".jar",
+          "-no_aop.jar",
+          "-classes.jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          "-test-sources.jar",
+          "-tests.jar",
+          ".jar",
+          "-no_aop.jar",
+          "-classes.jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "io.datakernel:guice",
+        "g": "io.datakernel",
+        "a": "guice",
+        "latestVersion": "1.1.3",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1444174921000,
+        "versionCount": 4,
+        "text": [
+          "io.datakernel",
+          "guice",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "io.prometheus.client.examples:guice",
+        "g": "io.prometheus.client.examples",
+        "a": "guice",
+        "latestVersion": "0.0.10",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1436461584000,
+        "versionCount": 8,
+        "text": [
+          "io.prometheus.client.examples",
+          "guice",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.lunarray.model.extensions.descriptor:guice",
+        "g": "org.lunarray.model.extensions.descriptor",
+        "a": "guice",
+        "latestVersion": "1.0",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1406452073000,
+        "versionCount": 1,
+        "text": [
+          "org.lunarray.model.extensions.descriptor",
+          "guice",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.jolira:guice",
+        "g": "com.jolira",
+        "a": "guice",
+        "latestVersion": "3.0.0",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1301724755000,
+        "versionCount": 8,
+        "text": [
+          "com.jolira",
+          "guice",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.jvnet.hudson:guice",
+        "g": "org.jvnet.hudson",
+        "a": "guice",
+        "latestVersion": "3.0-rc1",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1292057917000,
+        "versionCount": 1,
+        "text": [
+          "org.jvnet.hudson",
+          "guice",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.mycila.com.google.inject:guice",
+        "g": "com.mycila.com.google.inject",
+        "a": "guice",
+        "latestVersion": "3.0-20100927",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1285626177000,
+        "versionCount": 2,
+        "text": [
+          "com.mycila.com.google.inject",
+          "guice",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.mod4j.com.google.inject:guice",
+        "g": "org.mod4j.com.google.inject",
+        "a": "guice",
+        "latestVersion": "1.0-XTEXT-PATCHED",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1250254399000,
+        "versionCount": 1,
+        "text": [
+          "org.mod4j.com.google.inject",
+          "guice",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.google.code.guice:guice",
+        "g": "com.google.code.guice",
+        "a": "guice",
+        "latestVersion": "1.0",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1174541157000,
+        "versionCount": 1,
+        "text": [
+          "com.google.code.guice",
+          "guice",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.mycila.guice:mycila-guice",
+        "g": "com.mycila.guice",
+        "a": "mycila-guice",
+        "latestVersion": "4.0.rc1",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1472832732000,
+        "versionCount": 6,
+        "text": [
+          "com.mycila.guice",
+          "mycila-guice",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.peterphi.std.guice:stdlib-guice-parent",
+        "g": "com.peterphi.std.guice",
+        "a": "stdlib-guice-parent",
+        "latestVersion": "9.4.10",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1501594251000,
+        "versionCount": 113,
+        "text": [
+          "com.peterphi.std.guice",
+          "stdlib-guice-parent",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.mycila.guice.extensions:mycila-guice-extensions",
+        "g": "com.mycila.guice.extensions",
+        "a": "mycila-guice-extensions",
+        "latestVersion": "4.0.rc1",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1472832771000,
+        "versionCount": 7,
+        "text": [
+          "com.mycila.guice.extensions",
+          "mycila-guice-extensions",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "de.rhauswald.guice.hessian.hessian-guice:parent",
+        "g": "de.rhauswald.guice.hessian.hessian-guice",
+        "a": "parent",
+        "latestVersion": "1.1",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1399063459000,
+        "versionCount": 1,
+        "text": [
+          "de.rhauswald.guice.hessian.hessian-guice",
+          "parent",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.google.code.jbpm-guice:jbpm3-guice-aggregator",
+        "g": "com.google.code.jbpm-guice",
+        "a": "jbpm3-guice-aggregator",
+        "latestVersion": "1.1.0",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1323506182000,
+        "versionCount": 1,
+        "text": [
+          "com.google.code.jbpm-guice",
+          "jbpm3-guice-aggregator",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.googlecode.guice-junit4:guice-junit4-parent",
+        "g": "com.googlecode.guice-junit4",
+        "a": "guice-junit4-parent",
+        "latestVersion": "0.2",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1277114820000,
+        "versionCount": 3,
+        "text": [
+          "com.googlecode.guice-junit4",
+          "guice-junit4-parent",
+          "-tests.jar",
+          ".pom"
+        ],
+        "ec": [
+          "-tests.jar",
+          ".pom"
+        ]
+      }
+    ]
+  },
+  "spellcheck": {
+    "suggestions": []
+  }
 }
