@@ -24,7 +24,10 @@ namespace NugetMonkey.VsExtension
                 foreach (UIHierarchyItem selItem in selectedItems)
                 {
                     ProjectItem prjItem = selItem.Object as ProjectItem;
-                   return prjItem.ContainingProject;
+                    if (prjItem != null)
+                    {
+                        return prjItem.ContainingProject;
+                    }
                 }
             }
             return null;

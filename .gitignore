@@ -336,11 +336,11 @@ __pycache__/
 *.xsd.cs
 
 deps.json
-**/build.gradle
-**/copyToProject/**
-**/gradle/**
-**/gradlew*
-**/libs/**
-**/scripts/AddReference.ps1
-**/scripts/RemoveReference.ps1
+#**/build.gradle
+#**/copyToProject/**
+#**/gradle/**
+#**/gradlew*
+#**/libs/**
+#**/scripts/AddReference.ps1
+#**/scripts/RemoveReference.ps1
 **/*.user
