@@ -35,8 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NugetMonkey, Version=1.0.1.38076, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NugetMonkey.1.0.1.38076\lib\net452\NugetMonkey.dll</HintPath>
+    <Reference Include="NugetMonkey, Version=1.0.1.37691, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NugetMonkey.1.0.1.37691\lib\net452\NugetMonkey.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -61,12 +61,6 @@
     <None Include="packages.config" />
     <None Include="scripts\AddReference.ps1" />
     <None Include="scripts\RemoveReference.ps1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="copyToProject\libs\gradle-ikvm-plugin-3.5.2.jar" />
-    <Content Include="gradle\wrapper\gradle-wrapper.jar" />
-    <Content Include="libs\gradle-ikvm-plugin-3.5.2.jar" />
-    <Content Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -116,53 +110,78 @@
       <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\camel-core-2.19.2.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <Import Project="..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets')" />
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.19.2.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\camel-core-2.19.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.19.2.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\camel-core-2.19.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="slf4j-api-1.7.22.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-core-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-core-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jaxb-impl-2.2.11.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="camel-core-2.19.2.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\camel-core-2.19.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gradle\wrapper\gradle-wrapper.jar" />
+    <Content Include="libs\gradle-ikvm-plugin-3.5.2.jar" />
+    <Content Include="todo.txt" />
+  </ItemGroup>
+  <Import Project="..\packages\NugetMonkey.1.0.1.37691\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.1.0.1.37691\build\NugetMonkey.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.1.0.1.38076\build\NugetMonkey.targets'))" />
+    <Error Condition="!Exists('..\packages\NugetMonkey.1.0.1.37691\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.1.0.1.37691\build\NugetMonkey.targets'))" />
   </Target>
-  <ItemGroup>
-    <Reference Include="slf4j-api-1.7.22.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jaxb-core-2.2.11.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-core-2.2.11.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jaxb-impl-2.2.11.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-impl-2.2.11.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="camel-core-2.19.2.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\camel-core-2.19.2.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="slf4j-api-1.7.22.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jaxb-core-2.2.11.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-core-2.2.11.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="jaxb-impl-2.2.11.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\jaxb-impl-2.2.11.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="camel-core-2.19.2.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\camel-core-2.19.2.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   <ItemGroup>
     <Reference Include="slf4j-api-1.7.22.dll">
       <HintPath>C:\work\git_mehmet\nuget@\ConsoleApplicationTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
