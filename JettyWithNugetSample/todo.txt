@@ -1,1 +1,0 @@
-﻿https://stackoverflow.com/questions/42634297/custom-nuget-package-does-not-add-targets-file-as-import-step-in-csproj-file
