@@ -21,10 +21,10 @@ buildscript{
         classpath 'commons-codec:commons-codec:1.10'
 //        testCompile 'junit:junit:4.8.2'
 
-        // not yet maven repo ready so, using jitpack
-        //classpath fileTree(dir: "${rootDir}/libs/", include: "*.jar")
-        //from jit pack
-        classpath 'com.github.nugetmonkey:gradle-nugetmonkey-plugin:3.5.3-SNAPSHOT'
+            // not yet maven repo ready so, using jitpack
+            //classpath fileTree(dir: "${rootDir}/libs/", include: "*.jar")
+            //from jit pack
+            classpath 'com.github.nugetmonkey:gradle-nugetmonkey-plugin:3.5.3-SNAPSHOT'
     }
 }
 

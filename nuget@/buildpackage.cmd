@@ -1,0 +1,1 @@
+﻿../nugetcli/nuget pack
