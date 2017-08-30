@@ -28,15 +28,15 @@ buildscript{
     }
 }
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 allprojects {
 
     apply plugin: 'java'
     apply plugin: 'idea'
-    sourceCompatibility = 1.7
-    targetCompatibility = 1.7
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 
   repositories {
     mavenCentral()
@@ -53,147 +53,6 @@ allprojects {
     task wrapper(type: Wrapper) {
         gradleVersion = '4.0' //version required
     }
-//  task printSolvedDepsTreeInJson {
-//      doLast {
-//          def jsonOutput = "["
-//
-//          configurations.compile.resolvedConfiguration.firstLevelModuleDependencies.each { dep ->
-//              def addToJson
-//              addToJson = { resolvedDep ->
-//                  jsonOutput += "\n{"
-//                  jsonOutput += "\"groupId\":\"${resolvedDep.module.id.group}\"," +
-//                          "\"artifactId\":\"${resolvedDep.module.id.name}\"," +
-//                          "\"version\":\"${resolvedDep.module.id.version}\"," +
-//                          "\"file\":\"${resolvedDep.getModuleArtifacts()[0].file.getAbsolutePath().replace("\\", "\\\\")}\""
-//                  jsonOutput += ",\"dependencies\":["
-//                  def depMap = [:]
-//
-//                  if (resolvedDep.children.size() > 0) {
-//                      resolvedDep.children.each {
-//                          childResolvedDep ->
-////                              println(childResolvedDep.module.id.name)
-////                          if (resolvedDep in childResolvedDep.getParents()
-////                                  && childResolvedDep.getConfiguration() == 'compile') {
-//                              addToJson(childResolvedDep)
-//
-//                              def cd = childResolvedDep.getModuleArtifacts()[0].file.getName()
-//                              String cdWe = cd.take(cd.lastIndexOf('.'))
-//
-//                              String dll = cdWe  + ".dll"
-//                              depMap.dll = dll
-//                      }
-//                      if (jsonOutput[-1] == ',') {
-//                          jsonOutput = jsonOutput[0..-2]
-//                      }
-//                  }
-//                  jsonOutput += "]},"
-//
-//                  List<String> lst = new LinkedList<>()
-//                  lst.add "${rootProject.ext.ikvmpath}\\bin\\ikvmc.exe"
-//                  lst.add "\"${resolvedDep.getModuleArtifacts()[0].file.getAbsolutePath()}\""
-//                  lst.add "-target:library"
-//                  lst.add "-debug"
-////                  lst.add "-nojni"
-//                  depMap.values().each { e ->
-//                      lst.add "-r:" + e
-//                  }
-//
-////                  new FileNameFinder().getFileNames('${rootProject.ext.ikvmpath}\\bin\\',  '*.dll') .each { String fn ->
-////                      File f = new File(fn);
-////                      if (!f.getName().toLowerCase().contains("native")) {
-////                          lst.add "-r:" + f.getAbsoluteFile() //+ ".dll"
-////                      }
-////                  }
-//                  def curDep = resolvedDep.getModuleArtifacts()[0].file.getName()
-//                  String fileWithoutExt = curDep.take(curDep.lastIndexOf('.'))
-////                  println fileWithoutExt
-//
-//                  new FileNameFinder().getFileNames('.',  '*.dll') .each { String fn ->
-//                      File f = new File(fn);
-//                      def checkDep = f.getName();
-//                      String fileWithoutExtCheck = checkDep.take(checkDep.lastIndexOf('.'));
-////                      println fileWithoutExtCheck
-//                      if (!f.getName().toLowerCase().contains("native")
-//                            && f.getAbsolutePath().toLowerCase().endsWith(".dll")
-//                            && !fileWithoutExt!=(fileWithoutExtCheck)) {
-//                          lst.add "-r:" + f.getAbsolutePath() //+ ".dll"
-//                      }
-//                  }
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\ICSharpCode.SharpZipLib.dll"
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.AWT.WinForms.dll"
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.OpenJDK.Core.dll"
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.OpenJDK.Tools.dll"
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.Reflection.dll"
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.Runtime.JNI.dll"
-//                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.Runtime.dll"
-////                  lst.add "-r:" + "${rootProject.ext.ikvmpath}\\bin\\IKVM.OpenJDK.Beans.dll "
-//                  def params = lst as String[]
-//                  try {
-////                      println params
-////                      params = (String[])lst.toArray(params)
-//                      Process p = new java.lang.ProcessBuilder()
-//                              .redirectOutput(ProcessBuilder.Redirect.PIPE)
-////                              .redirectError(ProcessBuilder.Redirect.PIPE)
-//                              .redirectInput(ProcessBuilder.Redirect.PIPE)
-////                              .redirectError(ProcessBuilder.Redirect.PIPE)
-//                              .command(params).start()
-//
-//                      BufferedReader input = new BufferedReader(new InputStreamReader(p.getErr()))
-//                      String line;
-//                      while (p.alive && (line = input.readLine()) != null) {
-//                          println(line)
-//                      }
-//                      input.close()
-//                      p.waitFor()//10, java.util.concurrent.TimeUnit.SECONDS)
-//
-//                  }
-//                  catch (Throwable e) {
-//                      println(e.getMessage())
-//                      println(e.getStackTrace())
-//                  }
-//              }
-//              addToJson(dep)
-//          }
-//          if (jsonOutput[-1] == ',') {
-//              jsonOutput = jsonOutput[0..-2]
-//          }
-//          jsonOutput += "]"
-////          println jsonOutput
-//          def myFile = new File("deps.json")
-//          PrintWriter printWriter = new PrintWriter(myFile)
-//          printWriter.println(jsonOutput)
-//          printWriter.close()
-//      }
-//  }
-
-//    task parseJson(type:Exec) {
-//        doLast {
-//
-//            workingDir '.'
-//
-//            //on windows:
-//            commandLine 'cmd', '/c', '.\\Test1\\ikvm\\ikvm-8.0.5449.0\\ikvmc.exe'
-//
-//            //on linux
-//            // commandLine './stop.sh'
-//
-//            //store the output instead of printing to the console:
-//            standardOutput = new ByteArrayOutputStream()
-//
-//            //extension method stopTomcat.output() can be used to obtain the output:
-//            ext.output = {
-//                return standardOutput.toString()
-//            }
-//
-//            def jsonFile = file("deps.json")
-//            def parsedJson = new groovy.json.JsonSlurper().parseText(jsonFile.text)
-//
-//
-//            println parsedJson.each{
-//
-//			}
-//        }
-//    }
 }
 
 subprojects {

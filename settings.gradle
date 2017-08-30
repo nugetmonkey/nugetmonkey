@@ -1,5 +1,2 @@
-include 'CamelSample'
-include 'JettySample'
-
 rootProject.name = "nuget@"
 

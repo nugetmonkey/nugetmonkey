@@ -1,0 +1,6 @@
+{
+  "additionalProjectDependencies": [
+    "org.apache.camel:camel-core:2.19.2", 
+    "org.apache.camel:camel-stream:2.19.2"
+  ]
+}

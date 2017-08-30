@@ -1,5 +1,5 @@
 {
-  "additionalProjectDependencies":[
+  "additionalProjectDependencies": [
     "org.eclipse.jetty:jetty-server:9.4.5.v20170502",
     "org.eclipse.jetty:jetty-servlet:9.4.5.v20170502"
   ]

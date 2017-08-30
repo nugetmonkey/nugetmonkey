@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0ADF19E-0B71-4EB9-A251-AD600908A343}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JettyTest</RootNamespace>
+    <AssemblyName>JettyTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NugetMonkey, Version=1.0.1.42105, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NugetMonkey.1.0.1.42105\lib\net452\NugetMonkey.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdditionalJavaDependencies.json" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="build.gradle" />
+    <None Include="gradlew" />
+    <None Include="gradlew.bat" />
+    <None Include="gradle\wrapper\gradle-wrapper.properties" />
+    <None Include="packages.config" />
+    <None Include="scripts\AddReference.ps1" />
+    <None Include="scripts\RemoveReference.ps1" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> 
+  -->
+  <ItemGroup>
+    <Content Include="gradle\wrapper\gradle-wrapper.jar" />
+    <Content Include="todo.txt" />
+  </ItemGroup>
+  <Import Project="..\packages\NugetMonkey.1.0.1.42105\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.1.0.1.42105\build\NugetMonkey.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NugetMonkey.1.0.1.42105\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.1.0.1.42105\build\NugetMonkey.targets'))" />
+  </Target>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.AWT.WinForms.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Core.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Tools.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.Reflection.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.Reflection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.Runtime.JNI.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.Runtime.JNI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.Runtime.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Beans.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Charsets.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Cldrdata.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Cldrdata.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Corba.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Jdbc.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Localedata.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Localedata.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Management.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Media.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Misc.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Naming.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Nashorn.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Nashorn.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Remoting.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Security.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.SwingAWT.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Text.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.Util.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.API.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.Bind.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.Crypto.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.Parse.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.Transform.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.WebServices.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IKVM.OpenJDK.XML.XPath.dll">
+      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="javax.servlet-api-3.1.0.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\javax.servlet-api-3.1.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-util-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\jetty-util-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-io-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\jetty-io-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-http-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\jetty-http-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-server-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\jetty-server-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-security-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\jetty-security-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="jetty-servlet-9.4.5.v20170502.dll">
+      <HintPath>C:\work\git_mehmet\nuget@\JettyTest\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

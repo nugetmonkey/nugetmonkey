@@ -1,5 +1,0 @@
-apply plugin: 'java'
-
-dependencies {
-    compile group: 'org.apache.camel', name: 'camel-core', version: rootProject.ext.camelversion
-}
