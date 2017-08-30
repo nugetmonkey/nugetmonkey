@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CamelTest
 {
-    public class Rb : RouteBuilder
+    public class Rb :   RouteBuilder
     {
         public override void configure()
         {

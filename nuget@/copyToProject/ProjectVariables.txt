@@ -1,0 +1,6 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IKVMHome>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0</IKVMHome>
+    <ProjectHome>C:\work\git_mehmet\nuget@\CamelTest\.</ProjectHome>
+  </PropertyGroup>
+</Project>

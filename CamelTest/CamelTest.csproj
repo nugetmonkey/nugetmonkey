@@ -35,8 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NugetMonkey, Version=0.1.0.15670, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NugetMonkey.0.1.0.15670\lib\net452\NugetMonkey.dll</HintPath>
+    <Reference Include="NugetMonkey, Version=0.1.0.22961, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NugetMonkey.0.1.0.22961\lib\net452\NugetMonkey.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -62,201 +62,191 @@
     <None Include="scripts\AddReference.ps1" />
     <None Include="scripts\RemoveReference.ps1" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="gradle\wrapper\gradle-wrapper.jar" />
+    <Content Include="ProjectVariables.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  <PropertyGroup>
-    <PreBuildEvent />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.AWT.WinForms.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.AWT.WinForms.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.AWT.WinForms.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Core.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Core.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Tools.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Tools.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Tools.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.Reflection.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.Reflection.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.Reflection.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.Runtime.JNI.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.Runtime.JNI.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.Runtime.JNI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.Runtime.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.Runtime.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Beans.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Beans.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Beans.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Charsets.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Charsets.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Charsets.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Cldrdata.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Cldrdata.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Cldrdata.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Corba.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Corba.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Corba.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Jdbc.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Localedata.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Localedata.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Localedata.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Management.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Management.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Management.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Media.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Media.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Media.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Misc.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Misc.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Misc.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Naming.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Naming.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Naming.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Nashorn.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Nashorn.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Nashorn.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Remoting.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Remoting.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Remoting.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Security.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Security.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Security.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.SwingAWT.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Text.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Text.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Text.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.Util.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.Util.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.Util.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.API.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.API.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.Bind.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.Bind.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.Crypto.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.Parse.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.Transform.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.WebServices.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IKVM.OpenJDK.XML.XPath.dll">
-      <HintPath>C:\Users\bitek01\.gradle\ikvm\760c6fa688c68d440fe2681b5f8d61f5c8eb90da\ikvm-8.1.5717.0\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+      <HintPath>$(IKVMHome)\bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="slf4j-api-1.7.22.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\CamelTest\build\libs\slf4j-api-1.7.22.dll</HintPath>
+      <HintPath>$(ProjectHome)\build\libs\slf4j-api-1.7.22.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="jaxb-core-2.2.11.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\CamelTest\build\libs\jaxb-core-2.2.11.dll</HintPath>
+      <HintPath>$(ProjectHome)\build\libs\jaxb-core-2.2.11.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="jaxb-impl-2.2.11.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\CamelTest\build\libs\jaxb-impl-2.2.11.dll</HintPath>
+      <HintPath>$(ProjectHome)\build\libs\jaxb-impl-2.2.11.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="camel-core-2.19.2.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\CamelTest\build\libs\camel-core-2.19.2.dll</HintPath>
+      <HintPath>$(ProjectHome)\build\libs\camel-core-2.19.2.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="camel-stream-2.19.2.dll">
-      <HintPath>C:\work\git_mehmet\nuget@\CamelTest\build\libs\camel-stream-2.19.2.dll</HintPath>
+      <HintPath>$(ProjectHome)\build\libs\camel-stream-2.19.2.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="gradle\wrapper\gradle-wrapper.jar" />
-    <Content Include="todo.txt" />
-  </ItemGroup>
-  <Import Project="..\packages\NugetMonkey.0.1.0.15670\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.0.1.0.15670\build\NugetMonkey.targets')" />
+  <Import Project="..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NugetMonkey.0.1.0.15670\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.0.1.0.15670\build\NugetMonkey.targets'))" />
+    <Error Condition="!Exists('..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets'))" />
   </Target>
 </Project>

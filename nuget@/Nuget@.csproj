@@ -67,7 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="buildpackage.cmd" />
-    <Content Include="todo.txt" />
+    <None Include="copyToProject\ProjectVariables.txt" />
+    <None Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
