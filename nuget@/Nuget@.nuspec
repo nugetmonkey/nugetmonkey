@@ -8,9 +8,9 @@
     <owners>https://github.com/mfyuce</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use Java libraries from .NET with maven versioning</description>
-    <releaseNotes>First Version</releaseNotes>
+    <releaseNotes>Refactored first version</releaseNotes>
     <copyright>Copyright 2017</copyright>
-    <tags>IKVM java gradle</tags>
+    <tags>IKVM java gradle maven</tags>
   </metadata>
   <files>
     <file src="copyToProject\**\*" target="content" />

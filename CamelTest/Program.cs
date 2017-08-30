@@ -1,7 +1,6 @@
 ﻿using org.apache.camel;
 using org.apache.camel.builder;
 using org.apache.camel.impl;
-using org.apache.camel.spring;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +27,7 @@ namespace CamelTest
     {
         static void Main(string[] args)
         {
-            CamelContext context = new SpringCamelContext();
+            CamelContext context = new DefaultCamelContext();
             context.addRoutes(new Rb());
             /**
              * Camel is not ready for IKVM for now
