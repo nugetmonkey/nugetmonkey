@@ -18,7 +18,7 @@ buildscript{
         // not yet maven repo ready so, using jitpack
         //classpath fileTree(dir: "${rootDir}/libs/", include: "*.jar")
         //from jit pack
-        classpath 'com.github.nugetmonkey:gradle-nugetmonkey-plugin:3.5.3-SNAPSHOT'
+        classpath 'com.github.nugetmonkey:gradle-nugetmonkey-plugin:3.5.5-SNAPSHOT'
     }
 }
 

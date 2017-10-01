@@ -35,8 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NugetMonkey, Version=0.1.0.22961, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NugetMonkey.0.1.0.22961\lib\net452\NugetMonkey.dll</HintPath>
+    <Reference Include="NugetMonkey, Version=0.1.0.35066, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NugetMonkey.0.1.0.35066\lib\net452\NugetMonkey.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <None Include="gradle\wrapper\gradle-wrapper.properties" />
     <None Include="packages.config" />
     <None Include="scripts\AddReference.ps1" />
+    <None Include="scripts\RemoveAllReferences.ps1" />
     <None Include="scripts\RemoveReference.ps1" />
   </ItemGroup>
   <ItemGroup>
@@ -233,20 +234,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="camel-core-2.19.2.dll">
-      <HintPath>$(ProjectHome)\build\libs\camel-core-2.19.2.dll</HintPath>
+    <Reference Include="camel-core-2.19.3.dll">
+      <HintPath>$(ProjectHome)\build\libs\camel-core-2.19.3.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="camel-stream-2.19.2.dll">
-      <HintPath>$(ProjectHome)\build\libs\camel-stream-2.19.2.dll</HintPath>
+    <Reference Include="camel-stream-2.19.3.dll">
+      <HintPath>$(ProjectHome)\build\libs\camel-stream-2.19.3.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <Import Project="..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets')" />
+  <Import Project="..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets'))" />
+    <Error Condition="!Exists('..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets'))" />
   </Target>
 </Project>

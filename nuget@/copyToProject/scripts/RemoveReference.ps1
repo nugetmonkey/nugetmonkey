@@ -3,7 +3,7 @@
 #   "..\SomeDirectory\SomeProjectReferenceToRemove.dll"
 param($path, $Reference)
 
-$XPath = [string]::Format("//a:ProjectReference[@Include='{0}']", $Reference)   
+$XPath = [string]::Format("//a:ItemGroup/a:Reference/a:HintPath[text()='{0}']", $Reference)   
 
 # [System.Console]::WriteLine("");
 # [System.Console]::WriteLine("XPATH IS {0}", $XPath) 
@@ -25,7 +25,7 @@ $node = $proj.SelectSingleNode($XPath, $nsmgr)
 # }
 if ($node){
     [System.Console]::WriteLine("Removing node {0}", $node)
-    $node.ParentNode.RemoveChild($node);
+    $node.ParentNode.ParentNode.ParentNode.RemoveChild($node.ParentNode.ParentNode);
 
     $proj.Save($path)
 }

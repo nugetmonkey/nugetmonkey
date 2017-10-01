@@ -1,9 +1,9 @@
 # Calling Convention
 #   RemoveReference.ps1 "MyCsProj.csproj" 
 #   "..\SomeDirectory\SomeProjectReferenceToRemove.dll"
-param($path, $Reference)
+param($path, $ReferenceHint)
 
-$XPath = [string]::Format("//a:ItemGroup/a:Reference/a:HintPath[text()='{0}']", $Reference)   
+$XPath = [string]::Format("//a:ItemGroup/a:Reference/a:HintPath[starts-with(text(),'{0}')]", $ReferenceHint)   
 
 # [System.Console]::WriteLine("");
 # [System.Console]::WriteLine("XPATH IS {0}", $XPath) 
@@ -14,7 +14,7 @@ $proj = [xml](Get-Content $path)
 
 [System.Xml.XmlNamespaceManager] $nsmgr = $proj.NameTable
 $nsmgr.AddNamespace('a','http://schemas.microsoft.com/developer/msbuild/2003')
-$node = $proj.SelectSingleNode($XPath, $nsmgr)
+$nodes = $proj.SelectNodes($XPath, $nsmgr)
 
 # if (!$node)
 # {
@@ -23,9 +23,12 @@ $node = $proj.SelectSingleNode($XPath, $nsmgr)
 #     [System.Console]::WriteLine("");
 #     exit
 # }
-if ($node){
-    [System.Console]::WriteLine("Removing node {0}", $node)
-    $node.ParentNode.ParentNode.ParentNode.RemoveChild($node.ParentNode.ParentNode);
+if ($nodes){
+	foreach ($node in $nodes) {
+		[System.Console]::WriteLine("Removing node {0}", $node)
+		$node.ParentNode.ParentNode.ParentNode.RemoveChild($node.ParentNode.ParentNode);
+	}
+    
 
     $proj.Save($path)
 }

@@ -57,6 +57,7 @@
     <None Include="copyToProject\gradlew.bat" />
     <None Include="copyToProject\gradle\wrapper\gradle-wrapper.properties" />
     <None Include="copyToProject\scripts\AddReference.ps1" />
+    <None Include="copyToProject\scripts\RemoveAllReferences.ps1" />
     <None Include="copyToProject\scripts\RemoveReference.ps1" />
     <None Include="Nuget%40.nuspec">
       <SubType>Designer</SubType>

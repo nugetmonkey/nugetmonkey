@@ -35,8 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NugetMonkey, Version=0.1.0.22961, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NugetMonkey.0.1.0.22961\lib\net452\NugetMonkey.dll</HintPath>
+    <Reference Include="NugetMonkey, Version=0.1.0.35066, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NugetMonkey.0.1.0.35066\lib\net452\NugetMonkey.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -63,6 +63,7 @@
     <None Include="gradle\wrapper\gradle-wrapper.properties" />
     <None Include="packages.config" />
     <None Include="scripts\AddReference.ps1" />
+    <None Include="scripts\RemoveAllReferences.ps1" />
     <None Include="scripts\RemoveReference.ps1" />
   </ItemGroup>
   <ItemGroup>
@@ -71,13 +72,6 @@
     <Content Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.0.1.0.22961\build\NugetMonkey.targets'))" />
-  </Target>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib.dll">
       <HintPath>$(IKVMHome)\bin\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -263,4 +257,11 @@
       <HintPath>$(ProjectHome)\build\libs\jetty-servlet-9.4.5.v20170502.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <Import Project="..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets" Condition="Exists('..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetMonkey.0.1.0.35066\build\NugetMonkey.targets'))" />
+  </Target>
 </Project>
